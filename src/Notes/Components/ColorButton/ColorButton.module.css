@@ -1,0 +1,34 @@
+.btn {
+    padding: 15px;
+    border-radius: 10000px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    opacity: 0.5;
+    transition: 300ms all linear;
+  }
+  
+  .btn_active {
+    border-top: 20px solid #f58c02;
+    opacity: 1;
+  }
+  
+  .red {
+    background-color: #de2053;
+  }
+  
+  .blue {
+    background-color: #0635f1;
+  }
+  
+  .green {
+    background-color: #65fa00;
+  }
+  
+  .purple {
+    background-color: #ff00cc;
+  }
+  
+  .black {
+    background-color: #000000;
+  }

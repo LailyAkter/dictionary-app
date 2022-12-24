@@ -1,0 +1,70 @@
+h3 {
+    font-size: 2.6rem;
+    color: blueviolet;
+}
+h2 {
+    font-size: 2.6rem;
+    color: blueviolet;
+}
+.budget-form {
+    border: 0.15rem solid blueviolet;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+.expense-form {
+    border: 0.15rem solid black;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+.budget-submit {
+    background: transparent;
+    border: 0.1rem solid blueviolet;
+    color: blueviolet;
+    margin-top: 20px;
+    padding: 6px 7px;
+}
+.expense-submit {
+    background: transparent;
+    border: 0.1rem solid black;
+    color: black;
+    margin-top: 20px;
+    padding: 6px 7px;
+}
+.expense-submit:hover {
+    background: black;
+    color: white;
+}
+.budget-submit:hover {
+    background: blueviolet;
+    color: white;
+}
+
+.budget-input {
+    border: 0.05rem solid blueviolet !important;
+}
+.expense-input {
+    border: 0.05rem solid black !important;
+}
+.expense-amount,
+.expense-title {
+    color: black;
+}
+.budget {
+    font-size: 2.6rem;
+    color: blueviolet;
+}
+.expense {
+    font-size: 2.6rem;
+    color: red;
+}
+.balance {
+    font-size: 2.6rem;
+    color: black;
+}
+  
+.btn,
+.btn:hover {
+    color: var(--bs-btn-hover-color) !important;
+    background-color: var(--bs-btn-hover-bg) !important;
+    border-color: var(--bs-btn-hover-border-color);
+}

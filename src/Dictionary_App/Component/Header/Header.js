@@ -1,7 +1,7 @@
 import React from 'react'
-import './Header.css';
+import css from './Header.module.css';
 import TextField from '@mui/material/TextField';
-import { ThemeProvider, useTheme, createTheme } from '@mui/material/styles';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 
 const Header = ({ input, setInput }) => {
@@ -15,12 +15,12 @@ const Header = ({ input, setInput }) => {
     });
 
     return (
-        <div className="header">
-            <span className="title">{input ? input : 'Word Finder'}</span>
-            <div className="inputs">
+        <div className={css.header}>
+            <span className={css.title}>{input ? input : 'Word Finder'}</span>
+            <div className={css.inputs}>
                 <ThemeProvider theme={darkTheme}>
                     <TextField
-                        className="search"
+                        className={css.search}
                         label="Search Your Word"
                         variant="standard"
                         value={input}

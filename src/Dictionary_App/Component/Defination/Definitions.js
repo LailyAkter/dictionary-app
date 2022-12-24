@@ -1,9 +1,9 @@
 import React from "react";
-import "./Definitions.css";
+import css from "./Definitions.module.css";
 
 const Definitions = ({ meanings, word }) => {
   return (
-    <div className="meanings">
+    <div className={css.meanings}>
       {/* audio---------------------------- */}
       {meanings[0] && word && (
         <audio
@@ -17,13 +17,13 @@ const Definitions = ({ meanings, word }) => {
       {/* audio---------------------------- */}
 
       {word === "" ? (
-        <span className="subTitle">Start by typing a word in search</span>
+        <span className={css.subTitle}>Start by typing a word in search</span>
       ) : (
         meanings.map((mean) =>
           mean.meanings.map((item) =>
             item.definitions.map((def) => (
               <div
-                className="singleMean"
+                className={css.singleMean}
              
               >
                 <b>{def.definition}</b>
